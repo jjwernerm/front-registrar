@@ -104,7 +104,7 @@ export default function Registrar() {
         <div className="mt-4">
           <label htmlFor="input-id" className="text-gray-500">Id Producto <span className='text-red-500'>*</span></label>
           <input
-            type="text"
+            type="number"
             placeholder="Escribe el id del producto"
             id="input-id"
             className={`${errorIdProducto ? 'border-red-500 ring-red-500' : 'border-gray-100 focus:ring-green-400'} bg-gray-100 p-1 rounded-xl w-full outline-none focus:ring-1`} // Estilos condicionales según haya error o no
